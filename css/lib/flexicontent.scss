@@ -1,0 +1,15 @@
+/**
+ * flexicontent.scss - Set styles for FLEXIcontent elements and structures
+ *
+ * @version     2.0.0
+ * @package     lyquix_html
+ * @author      Lyquix
+ * @copyright   Copyright (C) 2015 - 2018 Lyquix
+ * @license     GNU General Public License version 2 or later
+ * @link        https://github.com/Lyquix/lyquix_html
+ */
+
+// Hide the filtering message
+#fc_filter_form_blocker {
+	display:none;
+}
