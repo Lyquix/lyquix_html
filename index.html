@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+	<!-- Base meta tags, it is recommended to keep -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<script async src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+	<!-- Loads JavaScript polyfills customized the user's browser type and version -->
+	<script defer src="https://cdn.polyfill.io/v2/polyfill.js"></script>
 
+	<!-- Various site validation tags. Remove if not needed. -->
 	<meta name="google-site-verification" content="" />
 	<meta name="msvalidate.01" content="" />
 	<meta name="p:domain_verify" content=""/>
 
+	<!-- Canonical URL. You may remove it if page has a unique URL. -->
 	<link href="" rel="canonical" />
 
+	<!-- Page title -->
 	<title></title>
 	<meta name="title" content="" />
 	<meta property="og:title" content="" />
 
+	<!-- Page description -->
 	<meta name="description" content="" />
 	<meta property="og:description" content="" />
 
+	<!-- CSS libraries. Remove if not needed. -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"  rel="preload" as="style" onload="this.rel='stylesheet'" />
+
+	<!-- Workaround for FOUC: flash of unstyled content. -->
 	<style>
-	/* FOUC workaround */
 	body {opacity:0;}
 	</style>
+
+	<!-- Main site styles -->
 	<link href="css/styles.min.css"  rel="preload" as="style" onload="this.rel='stylesheet'" />
 
+	<!-- JS Libraries. Remove if not needed. -->
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" onload="jQuery.noConflict();"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.6/SmoothScroll.min.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.4/jquery.dotdotdot.min.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.6/mobile-detect.min.js"></script>
+
+	<!-- Lyquix JS library, Vue library + components + controllers, and site scripts -->
 	<script defer src="js/lyquix.min.js"></script>
 	<script defer src="js/vue.min.js"></script>
 	<script defer src="js/scripts.min.js" onload="lqx.ready({analytics: {createParams: {default: {trackingId: 'UA-0000000-0', cookieDomain: 'auto'}}}, responsive: {minIndex: 0, maxIndex: 4}, siteURL: 'http://example.com', tmplURL: 'http://example.com', debug: false});"></script>
 
+	<!--  -->
 	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
@@ -79,6 +93,7 @@
 	<nav>
 	</nav>
 </footer>
+<!--  -->
 <link href="css/ie-alert.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
 <div class="ie-alert ie9 ie10 ie11">You are using an unsupported version of Internet Explorer. To ensure security, performance, and full functionality, <a href="http://browsehappy.com/?locale=en">please upgrade to an up-to-date browser.</a><i></i></div>
 <script>
