@@ -9,7 +9,7 @@
  * @link        https://github.com/Lyquix/lyquix_html
  */
 
-if(lqx && typeof lqx.responsive == 'undefined') {
+if(lqx && !('responsive' in lqx)) {
 	lqx.responsive = (function(){
 		var opts = {
 			sizes: ['xs', 'sm', 'md', 'lg', 'xl'],
