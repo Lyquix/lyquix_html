@@ -117,6 +117,10 @@ if(lqx && !('fixes' in lqx)) {
 						matchFix('imgWidthAttrib');
 						matchFix('fontFeatureOpts');
 						matchFix('cssGrid');
+					});
+
+					// Trigger functions on document loaded
+					lqx.vars.window.load(function() {
 						matchFix('objectFit');
 					});
 
@@ -257,7 +261,7 @@ if(lqx && !('fixes' in lqx)) {
 				var re = /(([\w-]+)\s*:\s*([\w\s-%#\/\(\)\.']+);*)/g;
 				var styles = {};
 				fontFamilyStr.replace(/(^"|"$)/g,'').replace(re, function(match, g1, property, value) {
-					if((property == 'object-fit' && (value == 'cover' || value == 'contain')) || property == 'object-prosition'){
+					if((property == 'object-fit' && (value == 'cover' || value == 'contain')) || property == 'object-position'){
 						styles[property] = value;
 					}
 				});
