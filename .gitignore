@@ -18,5 +18,5 @@ Desktop.ini
 
 # gitignore for lyquix_html
 .sass-cache
-/node_modules/
+node_modules
 /php/ip2geo/GeoLite2-City.mmdb
