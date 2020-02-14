@@ -1,7 +1,7 @@
 /**
  * autoresize.js - Automatically resize form elements to show contents
  *
- * @version     2.2.0
+ * @version     2.2.1
  * @package     lyquix_html
  * @author      Lyquix
  * @copyright   Copyright (C) 2015 - 2018 Lyquix
