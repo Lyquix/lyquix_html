@@ -1,7 +1,7 @@
 /**
  * styles.scss - Generates the main CSS file for the template, style.css
  *
- * @version     2.2.2
+ * @version     2.3.1
  * @package     lyquix_html
  * @author      Lyquix
  * @copyright   Copyright (C) 2015 - 2018 Lyquix
@@ -153,6 +153,9 @@ $font-td:				$font-copy;		// Font family for data cells
 
 // Base styles
 @import "lib/base.scss";
+
+// Font feature settings
+@import "lib/font-feature-settings.scss";
 
 // Array of screen sizes
 $screen-sizes: xs sm md lg xl;
